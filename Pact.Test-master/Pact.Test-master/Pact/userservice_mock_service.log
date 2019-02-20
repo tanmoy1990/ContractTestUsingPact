@@ -1,0 +1,59 @@
+﻿2019-02-20 12:06:27.129 +05:30 [Info] Started http://localhost:1234
+2019-02-20 12:06:27.248 +05:30 [Info] Cleared interactions
+2019-02-20 12:06:27.259 +05:30 [Info] Stopped http://localhost:1234
+2019-02-20 12:06:27.273 +05:30 [Info] Started http://localhost:1234
+2019-02-20 12:06:27.274 +05:30 [Info] Cleared interactions
+2019-02-20 12:06:27.275 +05:30 [Info] Stopped http://localhost:1234
+2019-02-20 12:06:27.281 +05:30 [Info] Started http://localhost:1234
+2019-02-20 12:06:27.283 +05:30 [Info] Cleared interactions
+2019-02-20 12:06:27.283 +05:30 [Info] Stopped http://localhost:1234
+2019-02-20 12:06:27.290 +05:30 [Info] Started http://localhost:1234
+2019-02-20 12:06:27.292 +05:30 [Info] Cleared interactions
+2019-02-20 12:06:27.473 +05:30 [Info] Test context Program.Main
+2019-02-20 12:06:27.521 +05:30 [Info] Registered expected interaction GET /user/1
+2019-02-20 12:06:27.524 +05:30 [Debug] {
+  "description": "A GET request to retrieve the user",
+  "provider_state": "Get user with id '1'",
+  "request": {
+    "method": "get",
+    "path": "/user/1",
+    "headers": {
+      "Accept": "application/json"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "body": {
+      "id": 1,
+      "firstName": 2,
+      "lastName": "Magotra"
+    }
+  }
+}
+2019-02-20 12:07:02.696 +05:30 [Info] Received request GET /user/1
+2019-02-20 12:07:02.697 +05:30 [Debug] {
+  "method": "get",
+  "path": "/user/1",
+  "headers": {
+    "Accept": "application/json",
+    "Host": "localhost:1234"
+  }
+}
+2019-02-20 12:07:02.713 +05:30 [Info] Found matching response for GET /user/1
+2019-02-20 12:07:02.713 +05:30 [Debug] {
+  "status": 200,
+  "headers": {
+    "Content-Type": "application/json; charset=utf-8"
+  },
+  "body": {
+    "id": 1,
+    "firstName": 2,
+    "lastName": "Magotra"
+  }
+}
+2019-02-20 12:07:02.745 +05:30 [Info] Verifying - interactions matched
+2019-02-20 12:07:02.781 +05:30 [Info] Cleared interactions
+2019-02-20 12:07:02.782 +05:30 [Info] Stopped http://localhost:1234

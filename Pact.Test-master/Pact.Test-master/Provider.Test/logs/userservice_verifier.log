@@ -1,0 +1,84 @@
+﻿2019-02-20 11:25:27.782 +05:30 [Debug] Verifying a Pact between Userclient and Userservice
+  Given Get user with id '1'
+    A GET request to retrieve the user
+      with GET /user/1
+        returns a response which
+          has status code 200
+          includes headers
+            'Content-Type' with value application/json; charset=utf-8
+          has a matching body (FAILED - 1)
+
+Failures:
+
+1) Expected: {
+  "id": 1,
+  "firstName": 2,
+  "lastName": "Magotra"
+}, Actual: {
+  "id": 1,
+  "lastName": "Magotra",
+  "firstName": "Aditya"
+}
+2019-02-20 11:31:46.951 +05:30 [Debug] Verifying a Pact between Userclient and Userservice
+  Given Get user with id '1'
+    A GET request to retrieve the user
+      with GET /user/1
+        returns a response which
+          has status code 200
+          includes headers
+            'Content-Type' with value application/json; charset=utf-8
+          has a matching body (FAILED - 1)
+
+Failures:
+
+1) Expected: {
+  "id": 1,
+  "firstName": 2,
+  "lastName": "Magotra"
+}, Actual: {
+  "id": 1,
+  "lastName": "Saha",
+  "firstName": "Tanmoy"
+}
+2019-02-20 11:31:56.079 +05:30 [Debug] Verifying a Pact between Userclient and Userservice
+  Given Get user with id '1'
+    A GET request to retrieve the user
+      with GET /user/1
+        returns a response which
+          has status code 200
+          includes headers
+            'Content-Type' with value application/json; charset=utf-8
+          has a matching body (FAILED - 1)
+
+Failures:
+
+1) Expected: {
+  "id": 1,
+  "firstName": 2,
+  "lastName": "Magotra"
+}, Actual: {
+  "id": 1,
+  "lastName": "Saha",
+  "firstName": "Tanmoy"
+}
+2019-02-20 12:08:28.236 +05:30 [Debug] Verifying a Pact between Userclient and Userservice
+  Given Get user with id '1'
+    A GET request to retrieve the user
+      with GET /user/1
+        returns a response which
+          has status code 200
+          includes headers
+            'Content-Type' with value application/json; charset=utf-8
+          has a matching body (FAILED - 1)
+
+Failures:
+
+1) Expected: {
+  "id": 1,
+  "firstName": 2,
+  "lastName": "Magotra"
+}, Actual: {
+  "id": 1,
+  "lastName": "Saha",
+  "firstName": "Tanmoy"
+}
